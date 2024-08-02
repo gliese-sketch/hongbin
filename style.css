@@ -19,6 +19,12 @@ main {
     background-repeat: no-repeat;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.494);
+}
+
 h1 {
     position: absolute;
     top: 50%;
@@ -26,4 +32,6 @@ h1 {
     transform: translate(-50%, -50%);
 
     font-family: Hongbin;
+    color: white;   
+    
 }
