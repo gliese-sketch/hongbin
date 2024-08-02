@@ -1,8 +1,10 @@
+/* Add custom font */
 @font-face {
     font-family: Hongbin;
     src: url(font.otf);
 }
 
+/* Reset Code */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +21,7 @@ main {
     background-repeat: no-repeat;
 }
 
+/* Add color overlay */
 .overlay {
     height: 100%;
     width: 100%;
@@ -26,6 +29,7 @@ main {
 }
 
 h1 {
+    /* Align text in center */
     position: absolute;
     top: 50%;
     left: 50%;
